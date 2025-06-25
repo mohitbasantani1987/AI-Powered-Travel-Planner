@@ -2,7 +2,6 @@ import os
 from typing import List
 from langchain.tools import tool
 import currencyService
-from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from config import Config
 from currencyService import CurrencyService
